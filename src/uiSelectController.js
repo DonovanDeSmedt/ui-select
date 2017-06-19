@@ -163,7 +163,6 @@ uis.controller('uiSelectCtrl',
 
   ctrl.focusSearchInput = function (initSearchValue) {
     ctrl.search = initSearchValue || ctrl.search;
-    ctrl.searchInput[0].focus();
   };
 
   ctrl.findGroupByName = function(name) {
